@@ -1,43 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
-      name="description"
-      content="Web site created using create-react-app"
+    name="description"
+    content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    manifest.json provides metadata used when your web app is installed on a
+    user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    Notice the use of %PUBLIC_URL% in the tags above.
+    It will be replaced with the URL of the `public` folder during the build.
+    Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
+    Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+    work correctly both with client-side routing and a non-root public URL.
+    Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
-  </head>
-  <body>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="d-flex flex-row " style="background-color: #38393a;">
+    <div class="p-2 flex-shrink-1" style="align-items: center;">
+        <ul class="nav">
+            <li class="nav-item">
+            </li>
+        </ul>
+    </div>
+    <div class="p-2 w-100">
+        <center>
+            <h1 style="color: rgb(255, 255, 255); ">FISICA BASICA</h1>
+        </center>
+        
+    </div>
+</div>
+<div>
+            <div class="row text-center">
+
+                <h1 style="font-size:40px;color:rgb(17, 16, 17)"><img src="img/logo1.png" alt="" width="150"
+                        height="135">UNIVERSIDAD DE LAS FUERZAS ARMADAS "ESPE"
+                </h1>
+                <center>
+                    <p style="font-size:40px"> Departamento de Ciencias Exactas</p>
+                </center>
+                <h1 style="font-size:40px;color:rgb(119, 0, 255)"><img src="img/images (1) (1).png" alt="">Física</h1>
+
+            </div>
+
+    <div class="container">
+        <div class="row">
+
+            <h2 style="font-size:40px;color:red">Movimiento rectilíneo uniforme</h2>
+            <p style="font-size:15px;color:rgba(8, 8, 8, 0.973)">El movimiento rectilíneo uniforme, es aquel con
+                velocidad constante y cuya trayectoria es una línea recta. Un ejemplo claro son las puertas
+                correderas de un ascensor, generalmente se abren y cierran en línea recta y siempre a la misma
+                velocidad.</p>
+            <hr>
+            <center><img src="img/ejem.jpg" width="600" height="200"></center>
+            <p style="font-size:15px;color:rgb(19, 18, 18)"><img src="img/ejem.jpg" alt="" srcset="right">Un
+                movimiento rectilíneo uniforme (m.r.u.) es aquel que tiene su velocidad constante y su trayectoria
+                es una línea recta. Esto implica que: <br> - El espacio recorrido es igual que el desplazamiento.
+                <br> - En tiempos iguales se recorren distancias iguales. <br> - La rapidez o celeridad es siempre
+                constante y coincide con el módulo de la velocidad.
+            </p>
+
+            <hr>
+            <center>
+                <h1 style="font-size:50px;color:rgba(233, 13, 13, 0.911)">Gráficas del M.R.U.</h1>
+            </center>
+            <h2 style="font-size:30px;color:rgb(8, 92, 19)"> Velocidad</h2>
+            <div class="container-all">
+                <img src="img/velocidad_pg_d.jpg" width="600" height="300">
+            </div>
+            <p> <br> <br> En los m.r.u. la velocidad del cuerpo es constante y por tanto igual a la velocidad
+                inicial. Su unidad en el Sistema Internacional es el metro por segundo (m/s).<br> -Su velocidad
+                inicial es constante. <br> - Su velocidad final es constante.</p>
+            <br><br><br><br>
+            <hr>
+            <h2 style="font-size:30px;color:rgb(8, 92, 19)""> Posición </h2>
+    
+    <div class=" container-all">
+                <img src="img/posicion_pg_d.png" width="600" height="300">
+        </div>
+        <p> <br> <br> Su unidad en el Sistema Internacional es el metro (m) y se obtiene por medio de la siguiente
+            expresión: <br> x = x0 + v.t <br> donde:<br> - x0 es la posición inicial. <br> - v es la velocidad que
+            tiene el cuerpo a lo largo del movimiento. <br> - t es el intervalo de tiempo durante el cual se mueve
+            el cuerpo.</p>
+        <br>
+        <hr>
+        <h2 style="font-size:30px;color:rgb(8, 92, 19)""> Aceleración  </h2>
+    <div class=" container-all">
+            <img src="img/aceleracion_pg_d.png" width="600" height="300">
+    </div>
+    <p> <br> <br> Su unidad en el Sistema Internacional es el metro por segundo al cuadrado (m/s2). Su valor a lo
+        largo del movimiento siempre es cero.<br>En aquellos casos en los que la posición inicial es cero ( x0 = 0
+        ), la distancia recorrida y la posición coinciden, y su valor es:<br>s=v.t</p>
+    <br><br><br>
+    <hr>
+    <p>Por último, cuando tengas que usar las ecuaciones anteriores recuerda el siguiente convenio de signos: <br>
+        -La posición del cuerpo se considera de igual signo que el semieje (semieje positivo o semieje negativo) en
+        el que se encuentre.<br> -La velocidad se considera de igual signo que el sentido del eje (sentido positivo
+        o sentido negativo) en el que se desplace.</p>
+    
+    <br><br><br>
+    </div>
+    </div>
+</header>
+</div>
+
+<!-- <script src="js/bootstrap.js"></script> -->
+
+
+<form action="" id="f2">
+<div class="d-flex flex-row " style="background-color: #38393a;">
+    <div class="p-2 flex-shrink-1" style="align-items: center;">
+        <ul class="nav">
+            <li class="nav-item">
+            </li>
+        </ul>
+    </div>
+    <div class="p-2 w-100">
+        <center>
+            <h1 class="text-white">CALCULADORA DE VELOCIDAD</h1>
+        </center>
+        
+    </div>
+</div>
+
+</div>
+</div>
+</div>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div style="background-color: #aae1f3;">
+    <div class="container">
+    <body  style="background: url(img/fondo_2.0.jpg) no-repeat; background-size: cover;" >
+    <div >
+        <div class="row">
+    
+        <div class="col" >
+            <br><br>
+            <div id="root"></div>
+            <br><br><br><br><br><br>         
+        </div>
+    
+        <div class="col" >
+            <br><br><br><br><br><br><br>
+            <img src="img/formulaV.png" alt="">
+    </div>
+
+
+
+
+    
     <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    This HTML file is a template.
+    If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    You can add webfonts, meta tags, or analytics to this file.
+    The build step will place the bundled scripts into the <body> tag.
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
+    To begin the development, run `npm start` or `yarn start`.
+    To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  </body>
+</body>
 </html>
